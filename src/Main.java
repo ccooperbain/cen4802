@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Christopher Cooper Bain
+ * @author Christopher Cooper Bain
  * This program prints the nth value of the Fibonacci sequence.
  */
 
@@ -16,6 +16,12 @@ public class Main {
         int term = input.nextInt();
         System.out.println("The " + term + "th term of the Fibonacci sequence is " + fibonacci(term));
     }
+
+    /**
+     *This method returns the value of the n'th term in the fibonacci sequence that is provided by the user.
+     * @param n the nth term that the user would like to see the value of.
+     * @return returns the calculation using recursion in a type integer.
+     */
     private static int fibonacci(int n){
         if(n == 0 || n == 1){
             return n;
