@@ -1,3 +1,5 @@
+package com.christopher.cen4802v2;
+
 import java.util.Scanner;
 
 /**
@@ -12,9 +14,11 @@ public class Main {
     private static Scanner input = new Scanner(System.in);
     public static void main(String[] args){
 
+        System.out.println("<##########################################>");
         System.out.print("Enter the number of the nth term for the Fib sequence >");
         int term = input.nextInt();
         System.out.println("The " + term + "th term of the Fibonacci sequence is " + fibonacci(term));
+        System.out.println("<##########################################>");
     }
 
     /**
