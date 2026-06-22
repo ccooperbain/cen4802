@@ -10,6 +10,6 @@ class MainTest {
     @DisplayName("Fibonacci method test.")
     @Test
     void fibTest(){
-        assertEquals(5,Main.fibonacci(10));
+        assertEquals(5,Main.fibonacci(5));
     }
 }
