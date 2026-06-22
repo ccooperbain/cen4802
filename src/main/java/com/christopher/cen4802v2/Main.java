@@ -26,7 +26,7 @@ public class Main {
      * @param n the nth term that the user would like to see the value of.
      * @return returns the calculation using recursion in a type integer.
      */
-    private static int fibonacci(int n){
+    protected static int fibonacci(int n){
         if(n == 0 || n == 1){
             return n;
         }else{
